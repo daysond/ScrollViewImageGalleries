@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VeZ-5H-AUg">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -40,6 +40,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-91" y="23"/>
+        </scene>
+        <!--Image Detail View Controller-->
+        <scene sceneID="RHu-Ho-2cR">
+            <objects>
+                <viewController id="VeZ-5H-AUg" customClass="ImageDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7kl-9j-rbw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afS-2I-ZDc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <connections>
+                                    <outlet property="delegate" destination="VeZ-5H-AUg" id="jhC-hV-i8z"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="afS-2I-ZDc" firstAttribute="leading" secondItem="XxI-Xd-LY4" secondAttribute="leading" id="8Bt-8p-7Lb"/>
+                            <constraint firstItem="afS-2I-ZDc" firstAttribute="top" secondItem="XxI-Xd-LY4" secondAttribute="top" id="BPZ-nF-uPT"/>
+                            <constraint firstItem="XxI-Xd-LY4" firstAttribute="trailing" secondItem="afS-2I-ZDc" secondAttribute="trailing" id="SzV-Lx-VYV"/>
+                            <constraint firstItem="XxI-Xd-LY4" firstAttribute="bottom" secondItem="afS-2I-ZDc" secondAttribute="bottom" id="ZiR-2O-uwO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XxI-Xd-LY4"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="afS-2I-ZDc" id="iIV-z5-yEA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lpw-FU-vCg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="661" y="23"/>
         </scene>
     </scenes>
 </document>

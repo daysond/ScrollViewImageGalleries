@@ -14,6 +14,7 @@
 		EDF496392289CCC200EC3AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF496372289CCC200EC3AFF /* LaunchScreen.storyboard */; };
 		EDF4963C2289CCC200EC3AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4963B2289CCC200EC3AFF /* main.m */; };
 		EDF496432289CCFE00EC3AFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF496422289CCFE00EC3AFF /* Images.xcassets */; };
+		EDF496462289D43200EC3AFF /* ImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF496452289D43200EC3AFF /* ImageDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		EDF4963A2289CCC200EC3AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF4963B2289CCC200EC3AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDF496422289CCFE00EC3AFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDF496442289D43200EC3AFF /* ImageDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDetailViewController.h; sourceTree = "<group>"; };
+		EDF496452289D43200EC3AFF /* ImageDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				EDF4962F2289CCC100EC3AFF /* ViewController.h */,
 				EDF496302289CCC100EC3AFF /* ViewController.m */,
 				EDF496322289CCC100EC3AFF /* Main.storyboard */,
+				EDF496442289D43200EC3AFF /* ImageDetailViewController.h */,
+				EDF496452289D43200EC3AFF /* ImageDetailViewController.m */,
 				EDF496352289CCC200EC3AFF /* Assets.xcassets */,
 				EDF496422289CCFE00EC3AFF /* Images.xcassets */,
 				EDF496372289CCC200EC3AFF /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 				EDF496312289CCC100EC3AFF /* ViewController.m in Sources */,
 				EDF4963C2289CCC200EC3AFF /* main.m in Sources */,
 				EDF4962E2289CCC100EC3AFF /* AppDelegate.m in Sources */,
+				EDF496462289D43200EC3AFF /* ImageDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
