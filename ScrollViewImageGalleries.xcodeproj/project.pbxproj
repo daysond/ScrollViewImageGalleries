@@ -13,6 +13,7 @@
 		EDF496362289CCC200EC3AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF496352289CCC200EC3AFF /* Assets.xcassets */; };
 		EDF496392289CCC200EC3AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF496372289CCC200EC3AFF /* LaunchScreen.storyboard */; };
 		EDF4963C2289CCC200EC3AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4963B2289CCC200EC3AFF /* main.m */; };
+		EDF496432289CCFE00EC3AFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF496422289CCFE00EC3AFF /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EDF496382289CCC200EC3AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDF4963A2289CCC200EC3AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF4963B2289CCC200EC3AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF496422289CCFE00EC3AFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				EDF496302289CCC100EC3AFF /* ViewController.m */,
 				EDF496322289CCC100EC3AFF /* Main.storyboard */,
 				EDF496352289CCC200EC3AFF /* Assets.xcassets */,
+				EDF496422289CCFE00EC3AFF /* Images.xcassets */,
 				EDF496372289CCC200EC3AFF /* LaunchScreen.storyboard */,
 				EDF4963A2289CCC200EC3AFF /* Info.plist */,
 				EDF4963B2289CCC200EC3AFF /* main.m */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF496392289CCC200EC3AFF /* LaunchScreen.storyboard in Resources */,
+				EDF496432289CCFE00EC3AFF /* Images.xcassets in Resources */,
 				EDF496362289CCC200EC3AFF /* Assets.xcassets in Resources */,
 				EDF496342289CCC100EC3AFF /* Main.storyboard in Resources */,
 			);
